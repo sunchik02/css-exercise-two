@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #00FFFF;
+  color: #000000;
 }
 
 nav {
@@ -49,6 +49,13 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+a:link  {color:#0070BB;  } /*unvisited*/
+a:visited {color:#0070BA; } /*visited*/
+a:hover {color:#0070BC; } /*mouse over*/
+a:active  {color:#0070BD; } /*selected*/
+a{
+  text-decoration: none;
 }
 /*font sizes*/
 body  {
